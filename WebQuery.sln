@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebQuery.Test.Harness", "WebQuery.Test.Harness\WebQuery.Test.Harness.csproj", "{5363104E-B4E7-466E-A5B5-E8DCA243D835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebQuery.Agents", "WebQuery.Agents\WebQuery.Agents.csproj", "{279CC975-4188-4FA2-B0F5-465747BFE7A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5363104E-B4E7-466E-A5B5-E8DCA243D835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5363104E-B4E7-466E-A5B5-E8DCA243D835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5363104E-B4E7-466E-A5B5-E8DCA243D835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5363104E-B4E7-466E-A5B5-E8DCA243D835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279CC975-4188-4FA2-B0F5-465747BFE7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279CC975-4188-4FA2-B0F5-465747BFE7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279CC975-4188-4FA2-B0F5-465747BFE7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279CC975-4188-4FA2-B0F5-465747BFE7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EFA2072-75FC-4BA5-814F-F934F89A4057}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sherbakov.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebQuery.Test.Harness\\WebQuery.Test.Harness.csproj
+		SccProjectName1 = WebQuery.Test.Harness
+		SccLocalPath1 = WebQuery.Test.Harness
+		SccProjectUniqueName2 = WebQuery.Agents\\WebQuery.Agents.csproj
+		SccProjectName2 = WebQuery.Agents
+		SccLocalPath2 = WebQuery.Agents
+	EndGlobalSection
+EndGlobal
